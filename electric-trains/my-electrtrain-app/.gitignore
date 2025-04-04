@@ -48,6 +48,7 @@ pids
 
 # dotenv environment variables file
 .env*
+.env
 
 # Mac specific files
 .AppleDouble
