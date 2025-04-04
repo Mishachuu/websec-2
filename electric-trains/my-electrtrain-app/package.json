@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.8.4",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "leaflet": "^1.9.4",
     "react": "^19.0.0",

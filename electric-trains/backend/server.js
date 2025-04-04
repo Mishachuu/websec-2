@@ -1,9 +1,10 @@
+require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const app = express();
 const PORT = 3001; 
 
-const API_KEY = '55af2f39-e68c-4891-8556-a4c55bae02f9';
+const API_KEY = process.env.API_KEY;
 
 app.get('/api/stations_list', async (req, res) => {
     try {
